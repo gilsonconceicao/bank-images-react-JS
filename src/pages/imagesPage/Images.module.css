@@ -1,0 +1,31 @@
+.images img {
+    display: block;
+}
+
+.searchImages {
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.button_search {
+    background: none;
+    display: block;
+    width: 40px;
+    font-size: 20px;
+    border-radius: 4px;
+    border: none;
+    padding: 10px 0;
+}
+
+.container_images {
+    max-width: 1200px;
+    display: block;
+    margin: 40px auto;
+}
+
+@media screen and (max-width: 1100px) {
+    .container_images {
+        margin: 50px 10px;
+    }
+}

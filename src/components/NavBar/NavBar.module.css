@@ -1,0 +1,41 @@
+.headerPage {
+    background-color: #222;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.listPage {
+    display: flex;
+    list-style-type: none;
+    margin-top: 16px;
+}
+
+.listPage a {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 7px 10px;
+    padding: 7px ;
+    transition: .3s;
+}
+
+.active_all {
+    background-color: #fff;
+    color: #222;
+    border-radius: 7px;
+    margin: 0 20px;
+    text-decoration: underline;
+}
+
+.listPage a.active_all {
+    color: #222;
+}
+
+@media screen and (max-width: 500px) {
+    .listPage a {
+        font-size: 15px;
+    }
+
+    .headerPage h2 {display: none;}
+}

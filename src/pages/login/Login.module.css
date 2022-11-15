@@ -1,0 +1,77 @@
+.container_login {
+  background-color: #8e2ce9;
+  /*padding: 50px 0 180px 0;*/
+  height: 100vh;
+  padding-top: 10px;
+}
+
+.waves {
+  position: absolute;
+  display: block;
+  bottom: 0;
+}
+
+.layout_form {
+  display: grid;
+  grid-template-columns: 500px 1fr;
+  align-items: center;
+  max-width: 800px;
+  margin: 40px auto;
+}
+
+
+
+.image_rocket {
+  position: absolute;
+  top: 0;
+  right: 120px;
+  animation-duration: 3s;
+  animation-name: ripple;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes ripple {
+  from {
+    margin-left: 0%;
+    transform: translateY(20px);
+  }
+
+  to {
+    margin-left: 0%;
+    transform: translateY(0);
+  }
+}
+
+
+@media screen and (max-width: 1115px) {
+  .image_rocket {
+    position: relative;
+    margin-left: 30px;
+  }
+}
+
+@media screen and (max-width: 997px) {
+  .waves {
+    position: relative;
+  }
+
+  .container_login  {
+    overflow: auto;
+    overflow-x: hidden;
+
+  }
+
+  .layout_form {
+    display: block;  
+    margin: 40px 20px ;
+  }
+}
+
+
+@media screen and (max-width: 340px) {
+  .image_rocket {
+    display: block;
+    width: 80%;
+  }
+}

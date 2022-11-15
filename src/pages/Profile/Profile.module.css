@@ -1,0 +1,21 @@
+.messageProfile {
+    box-shadow: 0 0 10px #00000038;
+    max-width: 400px;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 4vh auto;
+    position: relative;
+}
+
+
+.logOutButton {
+    background-color: #ff00008f;
+    color: #fff;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+    position: absolute; 
+    top: 40px;
+    right: 30px; 
+}

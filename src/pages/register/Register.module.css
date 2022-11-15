@@ -1,0 +1,72 @@
+.container_register {
+    background-color: #8e2ce9;  
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+.wavesre_gister {
+    position: absolute; 
+    bottom: 0;
+}
+
+.layout_form_register {
+    display: grid;
+    grid-template-columns: 500px 1fr;
+    align-items: center;
+    max-width: 800px;
+    margin: 50px auto 10px auto;
+    z-index: 10;
+}
+
+.image_rocket {
+    z-index: 1;
+}
+
+
+.image_rocketre_gister {
+    position: absolute;
+    top: 0;
+    right: 120px;
+    animation-duration: 3s;
+    animation-name: ripple;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  
+@keyframes ripple {
+  from {
+    margin-left: 0%;
+    transform: translateY(20px);
+  }
+  
+  to {
+    margin-left: 0%;
+    transform: translateY(0);
+  }
+}
+
+@media screen and (max-width: 1115px) {
+  .image_rocketre_gister {
+    position: relative;
+    margin-left: 30px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .container_register {
+    overflow: auto;
+    overflow-x: hidden;
+  }
+
+  .image_rocketre_gister {
+    display: block;
+    margin: auto;
+  }
+
+  .layout_form_register {
+    display: block;
+    margin: 30px 20px;
+  }
+
+  .wavesre_gister {position: relative;}
+}

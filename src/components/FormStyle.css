@@ -1,0 +1,36 @@
+.title_login, .paragraph, label {
+    color: #f0efef;
+}
+
+.title_login {
+    font-weight: bold;
+}
+
+.paragraph {
+    font-style: italic;
+    font-size: 23px;
+}
+
+/* form */
+
+.submitData {
+    background-color: #370566;
+    color: #f0efef;
+    border: none;
+    border-radius: 7px;
+    display: block;
+    text-align: center;
+    width: 200px;
+    padding: 8px;
+    margin: 10px auto 10px auto ;
+    transition: .4s;
+}
+
+.submitData:hover {
+    background-color: #27024b;
+    letter-spacing: 2px;
+}
+
+.loading {
+    background-color: #602399;
+}
