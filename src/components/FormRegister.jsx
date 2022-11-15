@@ -40,7 +40,6 @@ const FormRegister = () => {
       setPassword('');
       setEmail('');
 
-      location.href = '/login';
       setMessageError('');
     } else {
       setMessageError('Preencha os dados corretamente.')

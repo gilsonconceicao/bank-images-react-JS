@@ -19,11 +19,10 @@ export const useRegister = () => {
         
         await localStorage.setItem("saveUsersRegister", JSON.stringify(saveUsersRegister))
         
-        setData(saveUsersRegister)
+        setData(saveUsersRegister);
         
         setTimeout(() => {
             setLoadingSave(false);     
-            location.href = '/';
         }, 1000);
         
         setMessage('Dados salvos com sucesso.');
